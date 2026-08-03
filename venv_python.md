@@ -12,6 +12,6 @@ python3 -m venv venv
 ## Kích hoạt sử dụng môi trường
 ###### Định dạng: source <tên môi trường>/bin/activate
 ```
-source myenv/bin/activate
+source venv/bin/activate
 ```
 
