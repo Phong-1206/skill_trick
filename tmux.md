@@ -14,16 +14,16 @@ tmux ls
 ```
 ## Truy cập vào các sesion
 ```
-tmux attach -t <tên session>
+tmux attach -t myapp
 ```
 ## Dừng hoặc xóa sesion
 ```
-tmux kill-session -t <tên session>
+tmux kill-session -t myapp
 ```
 ## Lệnh gộp
 ```
-tmux new-session -d -s fastapi \
-"cd /home/user/my_fastapi_project && source venv/bin/activate && uvicorn main:app --host 0.0.0.0 --port 8000"****
+tmux new-session -d -s myapp \
+"cd /home/user/my_fastapi_project && source venv/bin/activate && uvicorn main:app --host 0.0.0.0 --port 8000"
 ```
 ## Thoát trở lại home 
 ## Tổ hợp phím: Ctrl+ B, nhấn D 
