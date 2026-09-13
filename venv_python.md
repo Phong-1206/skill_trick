@@ -15,3 +15,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+# Windows Python 
+## Tạo môi trường sử dụng
+```
+python -m venv myenv
+```
+## Kích hoạt sử dụng môi trường
+```
+.\myenv\Scripts\Activate.ps1
+```
